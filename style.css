@@ -148,6 +148,16 @@ nav {
 }
 
 @media (max-width: 999px) {
+  .forninho {
+    display: none;
+  }
+  .flex-section {
+    flex-direction: column;
+  }
+
+  .flex-section img {
+    margin: 2em auto;
+  }
   body {
     overflow-x: hidden;
   }
@@ -170,6 +180,27 @@ nav {
   }
   .mobile-menu {
     display: block;
+  }
+}
+
+@media (max-width: 728px) {
+  .container {
+    max-width: 30em;
+  }
+  .container h1 {
+    font-size: 0.9em;
+  }
+  .flex-section {
+    font-size: 0.9em;
+  }
+  .flex-section img {
+    max-width: 22em;
+  }
+  .footer-content h2 {
+    font-size: 0.9em;
+  }
+  .clickButton, .clickButton2 {
+    max-width: 15em;
   }
 }
 
