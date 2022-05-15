@@ -8,4 +8,4 @@ Tecnologias utilizadas:
 ## Status:
 > Em andamento ⚠️
 
-## Projeto:
+## Projeto: https://dotbake.netlify.app/
