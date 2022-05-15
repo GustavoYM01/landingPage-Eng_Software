@@ -204,6 +204,18 @@ nav {
   }
 }
 
+@media (max-width: 438px) {
+  .container h1 {
+    font-size: 0.8em;
+  }
+  .flex-section {
+    font-size: 0.7em;
+  }
+  .footer-content h2 {
+    font-size: 0.8em;
+  }
+}
+
 .nav-list.active {
   transform: translateX(0);
 }
