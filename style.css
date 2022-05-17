@@ -71,6 +71,10 @@ img {
 }
 
 .container h1 {
+  padding-top: 6.4em;
+}
+
+.container h1 {
   color: var(--color-main-headers);
   text-align: center;
 }
