@@ -6,6 +6,6 @@ Tecnologias utilizadas:
 + ![image](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
 ## Status:
-> Em andamento ⚠️
+> Concluído ✔️
 
 ## Projeto: https://dotbake.netlify.app/
