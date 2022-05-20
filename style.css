@@ -26,6 +26,13 @@ img {
   max-width: 100%;
 }
 
+.clickHere a {
+  display: block;
+  max-width: 22.5em;
+  margin: 0 auto;
+  padding: 5px;
+}
+
 .bg-gradient {
   height: 40em;
   background-image: linear-gradient(var(--gradient-linear), #fff);
@@ -79,11 +86,12 @@ img {
   text-align: center;
 }
 
-.clickHere .clickButton {
+.clickHere, .clickButton {
   margin: 0 auto;
 }
 
 .clickHere {
+  max-width: 41.25em;
   margin-top: 5em;
   margin-bottom: 5em;
 }
