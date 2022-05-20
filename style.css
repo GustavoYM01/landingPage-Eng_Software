@@ -9,6 +9,7 @@
 }
 
 body {
+  background: #eee;
   overflow-x: hidden;
   font-family: 'M PLUS Rounded 1c';
 }
@@ -34,13 +35,13 @@ img {
 }
 
 .bg-gradient {
-  height: 40em;
-  background-image: linear-gradient(var(--gradient-linear), #fff);
+  height: 50em;
+  background-image: linear-gradient( rgba(84,66,214,1) 0%, rgba(250,233,255,1) 61%, rgba(255,255,255,0) 100%);
 }
 
 .bg2-gradient {
   height: 66.5em;
-  background-image: linear-gradient(to top, var(--gradient-linear), #fff);
+  background-image: linear-gradient( rgba(255,255,255,0) 0%, rgba(250,233,255,1) 25%, rgba(84,66,214,1) 100%);
   display: flex;
 }
 
@@ -70,6 +71,10 @@ img {
 
 .f-section {
   margin-top: 6.25em;
+  background-image: url(./assets/another-test-bg.svg);
+  background-size: cover;
+  background-position: center;
+  height: 52em;
 }
 
 .container {
