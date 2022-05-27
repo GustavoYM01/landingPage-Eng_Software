@@ -59,7 +59,7 @@ img {
 }
 
 .bg2-gradient {
-  height: 66.5em;
+  height: 32em;
   background-image: linear-gradient(rgba(255,255,255,0) 0%, rgba(250,233,255,1) 25%, rgba(84,66,214,1) 100%);
   display: flex;
 }
