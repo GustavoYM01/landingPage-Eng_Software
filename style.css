@@ -1,6 +1,8 @@
 :root {
-  --gradient-linear: #5442d6;
-  --color-main-headers: #1700a1
+  --gradient-linear: #b74242;
+  --color-main-headers: #3a3a3a;
+  --color-section-content-h2: #b74242;
+  --background-color: #ffd6b6
 }
 
 * {
@@ -9,7 +11,8 @@
 }
 
 body {
-  background: #eee;
+  max-width: 100%;
+  background: var(--background-color);
   overflow-x: hidden;
   font-family: 'M PLUS Rounded 1c';
 }
@@ -18,18 +21,18 @@ body {
   width: 12px;
 }
 
-::-webkit-scrollbar-thumb{
-  background-color: #B2B2B2;
+::-webkit-scrollbar-thumb {
+  background-color: #b2b2b2;
   border-radius: 100vw;
-  border: .1em solid #eee;
+  border: 0.1em solid #eee;
 }
 
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
   background-color: #848484;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   margin-block: 5px;
 }
 
@@ -55,12 +58,21 @@ img {
 
 .bg-gradient {
   height: 50em;
-  background-image: linear-gradient( rgba(84,66,214,1) 0%, rgba(250,233,255,1) 61%, rgba(255,255,255,0) 100%);
+  background-image: linear-gradient(
+    rgba(183, 66, 66, 1) 0%,
+    rgba(234, 115, 98, 1) 61%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .bg2-gradient {
   height: 32em;
-  background-image: linear-gradient(rgba(255,255,255,0) 0%, rgba(250,233,255,1) 25%, rgba(84,66,214,1) 100%);
+  background: linear-gradient(
+    360deg,
+    #b74242 0%,
+    #ea7362 38.33%,
+    rgba(255, 214, 182, 0) 100%
+  );
   display: flex;
 }
 
@@ -69,7 +81,7 @@ img {
   align-self: flex-end;
 }
 
-.footer-content a img{
+.footer-content a img {
   margin: 2.5em auto 0 auto;
 }
 
@@ -111,7 +123,8 @@ img {
   text-align: center;
 }
 
-.clickHere, .clickButton {
+.clickHere,
+.clickButton {
   margin: 0 auto;
 }
 
@@ -138,8 +151,14 @@ img {
   max-width: 31.25em;
 }
 
+.section-content h2 {
+  color: var(--color-section-content-h2);
+  font-weight: 900;
+}
+
 .section-content p {
   margin-top: 1em;
+  font-weight: 500;
 }
 
 a {
@@ -219,7 +238,7 @@ nav {
     right: 0;
     width: 30vw;
     height: 92vh;
-    background: #A180FF;
+    background: var(--gradient-linear);
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -239,9 +258,6 @@ nav {
   .container {
     max-width: 30em;
   }
-  /* .container h1 {
-    font-size: 0.9em;
-  } */
   .flex-section {
     font-size: 1em;
   }
@@ -251,9 +267,9 @@ nav {
   .footer-content h2 {
     text-align: center;
     max-width: 22em;
-    /* font-size: 0.9em; */
   }
-  .clickButton, .clickButton2 {
+  .clickButton,
+  .clickButton2 {
     max-width: 15em;
   }
 }
@@ -296,7 +312,8 @@ nav {
   body p {
     font-size: 0.8em;
   }
-  .flex-section h2, p {
+  .flex-section h2,
+  p {
     max-width: 18em;
     font-size: 1em;
   }
