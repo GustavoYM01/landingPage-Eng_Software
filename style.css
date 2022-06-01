@@ -17,6 +17,10 @@ body {
   font-family: 'M PLUS Rounded 1c';
 }
 
+.main {
+  margin-bottom: 6em;
+}
+
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -161,10 +165,6 @@ img {
   font-weight: 500;
 }
 
-#equipe {
-  padding-bottom: 2em;
-}
-
 a {
   color: #fff;
   text-decoration: none;
@@ -256,6 +256,9 @@ nav {
   .mobile-menu {
     display: block;
   }
+  #equipe {
+    margin-top: 20em;
+  }
 }
 
 @media (max-width: 728px) {
@@ -275,6 +278,9 @@ nav {
   .clickButton,
   .clickButton2 {
     max-width: 15em;
+  }
+  #equipe {
+    margin-top: 20em;
   }
 }
 
@@ -310,6 +316,9 @@ nav {
     max-width: 22em;
     font-size: 1em;
   }
+  #equipe {
+    margin-top: 20em;
+  }
 }
 
 @media (max-width: 405px) {
@@ -324,6 +333,9 @@ nav {
 
   .flex-section img {
     max-width: 14em;
+  }
+  #equipe {
+    margin-top: 20em;
   }
 }
 
