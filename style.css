@@ -161,6 +161,10 @@ img {
   font-weight: 500;
 }
 
+#equipe {
+  padding-bottom: 2em;
+}
+
 a {
   color: #fff;
   text-decoration: none;
