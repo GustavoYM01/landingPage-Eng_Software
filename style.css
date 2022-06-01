@@ -209,6 +209,10 @@ nav {
   transition: 0.3s;
 }
 
+#equipe {
+  margin-top: 5em;
+}
+
 @media (max-width: 999px) {
   .f-section {
     background-image: url(./assets/mobile-bg.svg);
@@ -256,8 +260,11 @@ nav {
   .mobile-menu {
     display: block;
   }
+  .main {
+    margin-top: -6em;
+  }
   #equipe {
-    margin-top: 20em;
+    margin-top: 18em;
   }
 }
 
@@ -279,8 +286,11 @@ nav {
   .clickButton2 {
     max-width: 15em;
   }
+  .main {
+    margin-top: -6em;
+  }
   #equipe {
-    margin-top: 20em;
+    margin-top: 22em;
   }
 }
 
@@ -316,8 +326,11 @@ nav {
     max-width: 22em;
     font-size: 1em;
   }
+  .main {
+    margin-top: -10em;
+  }
   #equipe {
-    margin-top: 20em;
+    margin-top: 22em;
   }
 }
 
@@ -334,8 +347,11 @@ nav {
   .flex-section img {
     max-width: 14em;
   }
+  .main {
+    margin-top: -12em;
+  }
   #equipe {
-    margin-top: 20em;
+    margin-top: 22em;
   }
 }
 
