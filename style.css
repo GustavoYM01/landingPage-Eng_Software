@@ -48,10 +48,18 @@ body {
   background: var(--gradient-linear);
 }
 
-
 img {
   display: block;
   max-width: 100%;
+}
+
+#func-1 {
+  margin-top: -0.5em;
+  margin-bottom: 0.5em;
+}
+
+#func-2 {
+  margin-top: 1em;
 }
 
 .clickHere a {
@@ -329,6 +337,9 @@ nav {
   .flex-section img {
     max-width: 14em;
   }
+  #func-1 {
+    margin-left: 5.5em;
+  }
   .flex-section a {
     margin-left: 4em;
   }
@@ -347,6 +358,16 @@ nav {
 @media (max-width: 405px) {
   body p {
     font-size: 0.8em;
+  }
+  #sobre .section-content {
+    max-width: 14.4em;
+  }
+  #func-1 {
+    margin-left: 2.5em;
+  }
+  #func-1 img {
+    max-width: 12em;
+    height: auto;
   }
   .flex-section h2,
   p {
