@@ -48,6 +48,7 @@ body {
   background: var(--gradient-linear);
 }
 
+
 img {
   display: block;
   max-width: 100%;
@@ -149,6 +150,12 @@ img {
 .flex-section img {
   max-width: 28em;
   margin-right: 1em;
+}
+
+.flex-section a {
+  display:  inline-block;
+  margin-left: 6em;
+  margin-top: 3em;
 }
 
 .section-content {
@@ -322,6 +329,9 @@ nav {
   .flex-section img {
     max-width: 14em;
   }
+  .flex-section a {
+    margin-left: 4em;
+  }
   .footer-content h2 {
     max-width: 22em;
     font-size: 1em;
@@ -343,7 +353,13 @@ nav {
     max-width: 18em;
     font-size: 1em;
   }
-
+  .flex-section a {
+    margin-left: 1em;
+  }
+  .flex-section a img {
+    max-width: 12em;
+    height: auto;
+  }
   .flex-section img {
     max-width: 14em;
   }
